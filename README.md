@@ -38,7 +38,7 @@
 
 ### 关于
 
-**作者:Bilibili@[Jonyan_Dunh]**(https://space.bilibili.com/96876893)
+**作者:Bilibili@[Jonyan_Dunh](https://space.bilibili.com/96876893)**
 **Mail:1309634881@qq.com**
 
 ### 开源协议
