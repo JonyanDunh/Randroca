@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using Microsoft.Win32;
+using System.Diagnostics;
 using System.Windows;
 
 namespace WpfApp1
@@ -12,6 +13,9 @@ namespace WpfApp1
         private static System.Threading.Mutex mutex;
         protected override void OnStartup(StartupEventArgs e)
         {
+            // 添加到 所有用户的 注册表启动项
+            RegistryKey RKey = Registry.LocalMachine.CreateSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Run");
+            RKey.SetValue("AppName", "\"" + Process.GetCurrentProcess().MainModule.FileName + "\"");
             mutex = new System.Threading.Mutex(true, "OnlyRun_CRNS");
             if (mutex.WaitOne(0, false))
             {
