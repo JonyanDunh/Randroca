@@ -8,19 +8,19 @@
 
 ##### 主窗口未显示时的悬浮球
 
-![image-20200727133244018](https://github.com/JonyanDunh/Randroca/blob/master/image-20200727133244018.png)
+![image-20200727133244018](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133236642.png)
 
 ##### 主窗口显示时的悬浮球
 
-![image-20200727133350900](https://github.com/JonyanDunh/Randroca/blob/master/image-20200727133350900.png)
+![image-20200727133350900](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133350900.png)
 
 ##### 主窗口界面
 
-![image-20200727133405856](https://github.com/JonyanDunh/Randroca/blob/master/image-20200727133405856.png)
+![image-20200727133405856](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133405856.png)
 
 ##### 关于界面
 
-![image-20200727133430138](https://github.com/JonyanDunh/Randroca/blob/master/image-20200727133430138.png)
+![image-20200727133430138](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133430138.png)
 
 ### 开发语言
 
