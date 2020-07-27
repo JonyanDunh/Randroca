@@ -23,7 +23,7 @@ namespace WpfApp1
             }
             else
             {
-                _ = MessageBox.Show("该程序已经在运行！ 害怕！\nThe program is already running! Afraid!\nプログラムは既に実行中です！ 恐れ！", "Randroca");
+                _ = MessageBox.Show("该程序已经在运行！ 害怕！\nThe program is already running! Afraid!\nプログラムは既に実行中です！ 恐れ！", "Randroca");//防止程序多开
                 Process.GetCurrentProcess().Kill();
                 Application.Current.Shutdown();
             }
