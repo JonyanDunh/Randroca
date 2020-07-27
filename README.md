@@ -28,7 +28,7 @@
 
 ### 使用须知
 
-#### 软件已经生成在**\bin\Debug**目录内，如需体验请[点击下载](https://github.com/JonyanDunh/Randroca/blob/master/bin/Debug/Randroca.exe)
+#### 软件已经生成在bin\Debug目录内，如需体验请[点击下载](https://github.com/JonyanDunh/Randroca/blob/master/bin/Debug/Randroca.exe)
 
 **MainWindow.xaml**为主界面
 
