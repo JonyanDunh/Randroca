@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp1.Float"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Background="Transparent"
+        Title="悬浮球" Height="100" Width="100"
+        ResizeMode="NoResize"
+        AllowsTransparency="True" WindowStyle="None"
+        >
+    <Image x:Name="img" Source="resource/swopen.png" MouseDown="click" MouseMove="Window_MouseMove"/>
+</Window>

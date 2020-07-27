@@ -1,0 +1,56 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Background="Transparent"
+        ResizeMode="NoResize"
+        Title="高一(5)班随机点名" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None" MouseMove="Window_MouseMove" >
+
+    <Grid>
+        <Border  CornerRadius="20" Margin="2,2,0,2" BorderThickness="5" BorderBrush="#FED4E0" HorizontalAlignment="Left" Width="796" >
+            <Border.Background>
+                <ImageBrush ImageSource="resource/bg.jpg" />
+            </Border.Background>
+            <Border.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="8"/>
+            </Border.Effect>
+        </Border>
+        <Button Background="#FED4E0" Content="选老婆" x:Name="buttons"  Height="61" Margin="335,349,335,0" VerticalAlignment="Top" Width="122" Opacity="0.8" FontSize="20" FontWeight="Bold" FontFamily="Arial Black" Click="click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border BorderBrush="{TemplateBinding Control.BorderBrush}" BorderThickness="0" CornerRadius="20" Name="PART_Background">
+                        <Border.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FED4E0" Offset="0.0" />
+                                <GradientStop Color="#FED4E0" Offset="0.5" />
+                                <GradientStop Color="#FED4E0" Offset="0.0" />
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <ContentPresenter Content="{TemplateBinding ContentControl.Content}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Label Content="和泉纱雾" x:Name="label" HorizontalContentAlignment="Center"  VerticalAlignment="Center"  FontSize="48" FontFamily="Arial Black" FontWeight="Bold" HorizontalAlignment="Center" Margin="134,260,453,126" Width="213"/>
+
+        <Image HorizontalAlignment="Left" Height="30" Margin="602,11,0,0" VerticalAlignment="Top" Width="185" Source="resource/Bilibili_logo.png" MouseDown="bilibili"/>
+
+        <Image HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="20" Margin="10,10,0,0" Source="resource/Close.png" RenderTransformOrigin="0.357,-2.25" MouseDown="close"/>
+        <Image HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="19" Margin="34,10,0,0" Source="resource/About.png" RenderTransformOrigin="0.357,-2.25" MouseDown="about"/>
+
+        <Image x:Name="imgs" HorizontalAlignment="Left" Height="130" VerticalAlignment="Top" Width="130" Margin="174,94,0,0" Source="pack://application:,,,/resource/和泉纱雾.jpg"  >
+            <Image.Clip>
+                <RectangleGeometry RadiusX="120" RadiusY="120" Rect="0,0,130,130"/>
+            </Image.Clip>
+        </Image>
+
+
+
+
+
+    </Grid>
+
+</Window>

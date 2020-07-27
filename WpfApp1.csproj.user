@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\dengl\Desktop\临时\|ftp://www.deginx.com/|ftp://soft.deginx.com/|C:\Users\dengl\Downloads\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>https://soft.deginx.com/class_5_roll_call/|https://soft.deginx.com/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>https://soft.deginx.com/class_5_roll_call/|https://soft.deginx.com/%25E9%25AB%2598%25E4%25B8%2580%285%29%2520%25E7%258F%25AD%25E9%259A%258F%25E6%259C%25BA%25E7%2582%25B9%25E5%2590%258D.exe/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>zh-CN</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+  </PropertyGroup>
+</Project>
