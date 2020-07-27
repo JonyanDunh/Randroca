@@ -8,25 +8,28 @@
 
 ##### 主窗口未显示时的悬浮球
 
-![image-20200727133244018](C:\Users\dengl\AppData\Roaming\Typora\typora-user-images\image-20200727133244018.png)
+![image-20200727133244018](https://github.com/JonyanDunh/Randroca/blob/master/image-20200727133244018.png)
 
 ##### 主窗口显示时的悬浮球
 
-![image-20200727133350900](C:\Users\dengl\AppData\Roaming\Typora\typora-user-images\image-20200727133350900.png)
+![image-20200727133350900](https://github.com/JonyanDunh/Randroca/blob/master/image-20200727133350900.png)
 
 ##### 主窗口界面
 
-![image-20200727133405856](C:\Users\dengl\AppData\Roaming\Typora\typora-user-images\image-20200727133405856.png)
+![image-20200727133405856](https://github.com/JonyanDunh/Randroca/blob/master/image-20200727133405856.png)
 
 ##### 关于界面
 
-![image-20200727133430138](C:\Users\dengl\AppData\Roaming\Typora\typora-user-images\image-20200727133430138.png)
+![image-20200727133430138](https://github.com/JonyanDunh/Randroca/blob/master/image-20200727133430138.png)
 
 ### 开发语言
 
 本软件主要使用了.NET Framework的WPF构建，主要是界面易美化，开发周期短
 
 ### 使用须知
+
+#### 软件已经生成在bin\Debug目录内，如需体验请[点击下载](https://github.com/JonyanDunh/Randroca/blob/master/bin/Debug/Randroca.exe)  
+
 
 **MainWindow.xaml**为主界面
 
@@ -38,7 +41,7 @@
 
 ### 关于
 
-**作者:Bilibili@[Jonyan_Dunh**](https://space.bilibili.com/96876893)
+**作者:Bilibili@[Jonyan_Dunh](https://space.bilibili.com/96876893)**  
 **Mail:1309634881@qq.com**
 
 ### 开源协议
