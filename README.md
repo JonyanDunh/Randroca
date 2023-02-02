@@ -1,56 +1,93 @@
-# Randroca
 
-### 软件介绍
+<p align="center">
+  <a href="https://github.com/jonyandunh/Randroca">
+    <img src="https://github.com/JonyanDunh/Randroca/blob/master/resource/swopen.png?raw=true" alt="Logo" width="80" height="80">
+  </a>
 
- Randroca是一个随机点名的软件，让你以更简单的方式向学生提问问题
+  <h3 align="center">Randroca</h3>
 
-### 软件截图
+  <p align="center">
+    A software that randomly selects users to facilitate the selection of many scenes, such as students in the classroom, the luckiest staff in a company, and the luckiest viewer in tv shows.
+    <br/>
+    <br/>
+  </p>
 
-##### 主窗口未显示时的悬浮球
+
+![Downloads](https://img.shields.io/github/downloads/jonyandunh/Randroca/total) ![Contributors](https://img.shields.io/github/contributors/jonyandunh/Randroca?color=dark-green) ![Forks](https://img.shields.io/github/forks/jonyandunh/Randroca?style=social) ![Stargazers](https://img.shields.io/github/stars/jonyandunh/Randroca?style=social) ![Issues](https://img.shields.io/github/issues/jonyandunh/Randroca) ![License](https://img.shields.io/github/license/jonyandunh/Randroca) 
+
+## Table Of Contents
+
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Contributing](#contributing)
+* [License](#license)
+* [Authors](#authors)
+* [Acknowledgements](#acknowledgements)
+
+## About The Project
+
+#### **Preview:**
+
+**Main interface**
+
+![Screen Shot](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133405856.png)
+
+**Hover boll(main interface is hidden)**
 
 ![image-20200727133244018](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133236642.png)
 
-##### 主窗口显示时的悬浮球
+**Hover boll(main interface is visible)**
 
 ![image-20200727133350900](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133350900.png)
 
-##### 主窗口界面
-
-![image-20200727133405856](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133405856.png)
-
-##### 关于界面
+**About page**
 
 ![image-20200727133430138](https://raw.githubusercontent.com/JonyanDunh/Randroca/master/image-20200727133430138.png)
 
-### 开发语言
+#### Why did I develop the software?
 
-本软件主要使用了.NET Framework的WPF构建，主要是界面易美化，开发周期短
+I developed the software when I was a high school student🏫. 
+Every time I saw my teacher need to choose a student to answer her question, she will take out a table which contains all students' names in my class and select a student from it📃. 
+I thought it was so inconvenient🤔, and I decide to make software to solve the problem, so I developed the software named Randroca.
 
-### 使用须知
+## Built With
 
-#### 软件已经生成在bin\Debug目录内，如需体验请[点击下载](https://github.com/JonyanDunh/Randroca/blob/master/bin/Debug/Randroca.exe)  
+The software mainly uses  WPF of the .NET Framework to build because it is so convenient to beautify on Windows system, and it can save the development time.
 
+## Getting Started
 
-**MainWindow.xaml**为主界面
+`MainWindow.xaml` is the main interface;
+`Float.xaml` is the hover ball;
+`About.xaml` is the about-page
 
-**Float.xaml**为悬浮球
+### Prerequisites
 
-**About.xaml**为关于软件的界面
+If you wanna change the user list, you need to modify the function called `Roll_call()` in `MainWindow.xaml.cs`. Inside the function, you will see a string array called `name`, insert some user names that you want to appear on the software's selection. At the same time, you need to add some photos to `resource/face`. They need PNG format, and their file name are the same as the user that you insert into the `name` array.
 
-要修改点名名单请修改**MainWindow.xaml.cs**的**Roll_call()**函数的**name**数组，同时也要往**resource**文件夹的**face**文件夹加入和名字相对应的照片，并统一使用**png**格式
+### Installation
 
-### 关于
+`git clone https://github.com/JonyanDunh/Randroca.git`
+`cd Randroca`
 
-**作者:Bilibili@[Jonyan_Dunh](https://space.bilibili.com/96876893)**  
-**Mail:1309634881@qq.com**
+## Contributing
 
-### 开源协议
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/jonyandunh/Randroca/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with the necessary changes.
+* Please make sure you check your spelling and grammar.
+* Create individual PR for each suggestion.
+* Please also read through the [Code Of Conduct](https://github.com/jonyandunh/Randroca/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
-*为了共同的进步与对用户的透明性，Randroca现以GNU GPL 3.0协议进行开源，安全，免费，值得信任。本程序按照 GNU 通用公共许可证的条款发布。在必要时，也请您遵守开源协议《GNU 通用公共许可证》*
+## License
 
+Randroca is now open-source, secure, free, and trustworthy under the GNU GPL 3.0 license for mutual progress and transparency to users. This program is distributed under the terms of the GNU General Public License. If necessary, please also comply with the open-source license GNU General Public License
 
+## Authors
 
+* **Jonyan Dunh** - *A Full Stack developer from China I’m currently learning the field of deep learning, such as GAN, DRL, NPL and CV...* - [Jonyan Dunh](https://twitter.com/JonyanDunh) - *Whole of the project*
 
+## Acknowledgements
 
-**Copyright © 2020 Jonyan Dunh All Rights Received**
-
+* [WPF](https://github.com/dotnet/wpf)
